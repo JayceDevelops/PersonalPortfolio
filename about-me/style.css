@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "JetBrains Mono", monospace;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #212121;
+    align-items: center;
+    justify-content: space-between;
+    overflow-wrap: normal;
+    position: absolute;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#heading {
+    margin-left: 20px;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #212121;
+    width: 10%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 101%;
+    margin-top: 20px;
+}
+
+.tab:hover {
+    background-color: gray;
+}
+
+.tab-content {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#projects-container {
+    margin-right: 50px;
+}
+
+#about-container {
+    background-color: white;
+}
+
+#about-container h3 {
+    color: black;
+}
+
+#college-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 84px;
+    height: 25vh;
+    width: 45%;
+}
+
+#college-container h1 {
+    color: #212121;
+    text-shadow: 3px 3px 2px gray;
+    font-weight: bold;
+    font-size: 8vh;
+}

@@ -50,6 +50,16 @@ nav {
     margin-right: 50px;
 }
 
+#home-container {
+    background-color: white;
+}
+
+#home-container h3 {
+    color: black;
+}
+
+
+
 #side-container{
     display: flex;
     flex-direction: row;
@@ -99,17 +109,18 @@ nav {
     flex-direction: column;
     height: 100vh;
     width: 55%;
+    margin-bottom: 86px;
 }
 
 #right-side h2 {
-    color: black;
+    color: #212121;
     font-size: 19px;
     text-align: center;
     padding: 10px;
 }
 
 #right-side h3 {
-    color: black;
+    color: #212121;
     font-size: 15px;
     font-style: italic;
 }
