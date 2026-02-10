@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "JetBrains Mono", monospace;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #212121;
+    align-items: center;
+    justify-content: space-between;
+    overflow-wrap: normal;
+    position: absolute;
+    width: 100%;
+}
+
+#heading {
+    margin-left: 20px;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #212121;
+    width: 10%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 101%;
+    margin-top: 20px;
+}
+
+.tab:hover {
+    background-color: gray;
+}
+
+.tab-content {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#projects-container {
+    margin-right: 50px;
+}
+
+#side-container{
+    display: flex;
+    flex-direction: row;
+}
+
+#left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./assets/binary.png");
+    margin-top: 86px;
+    width: 45%;
+    height: 100vh;
+    box-shadow: inset 0px 10px 8px gray;
+    overflow: hidden;
+}
+
+.welcome-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 70%;
+    height: 20%;
+    margin-bottom: 86px;
+    box-shadow: inset 0px 6px 8px gray;
+    flex-shrink: inherit;
+}
+
+#left-side h1 {
+    color: #212121;
+    font-weight: bold;
+    font-size: 5vh;
+    display: flex;
+    flex-shrink:initial;
+    flex-basis: auto;
+    padding: 20px;
+    position: relative;
+}
+
+
+#right-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 55%;
+}
+
+#right-side h2 {
+    color: black;
+    font-size: 19px;
+    text-align: center;
+    padding: 10px;
+}
+
+#right-side h3 {
+    color: black;
+    font-size: 15px;
+    font-style: italic;
+}
+
+
+
+
+
